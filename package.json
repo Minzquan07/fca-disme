@@ -1,0 +1,121 @@
+{
+  "_from": "fca-disme@2.1.9",
+  "_id": "fca-disme@2.1.9",
+  "_inBundle": false,
+  "_integrity": "sha512-FKvvwRFj3FjFmDoaTxTqav9qwXYVd8PfbuInqIFSvMnLLdpqjsqCbmrXbkMwBdy+D+p6V4zDI0R5f4QgwA7nKw==",
+  "_location": "/fca-disme",
+  "_phantomChildren": {
+    "ansi": "0.3.1",
+    "core-util-is": "1.0.3",
+    "delegates": "1.0.0",
+    "has-unicode": "2.0.1",
+    "inherits": "2.0.4",
+    "isarray": "1.0.0",
+    "lodash.pad": "4.5.1",
+    "lodash.padend": "4.6.1",
+    "lodash.padstart": "4.6.1",
+    "process-nextick-args": "2.0.1",
+    "util-deprecate": "1.0.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fca-disme@2.1.9",
+    "name": "fca-disme",
+    "escapedName": "fca-disme",
+    "rawSpec": "2.1.9",
+    "saveSpec": null,
+    "fetchSpec": "2.1.9"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fca-disme/-/fca-disme-2.1.9.tgz",
+  "_shasum": "de60008536b0099663b8cfb07fd06327604cc4d4",
+  "_spec": "fca-disme@2.1.9",
+  "_where": "/home/runner/MiraiBot",
+  "author": {
+    "name": "Avery, David, Maude, Benjamin, UIRI"
+  },
+  "bugs": {
+    "url": "https://github.com/Schmavery/facebook-chat-api/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "websocket-stream": "^5.5.0"
+  },
+  "deprecated": false,
+  "description": "A Facebook chat API that doesn't rely on XMPP. Will NOT be deprecated after April 30th 2015.",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "mocha": "^7.0.1",
+    "prettier": "^1.11.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "es2017": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_"
+        }
+      ],
+      "no-empty": [
+        "error",
+        {
+          "allowEmptyCatch": true
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/Schmavery/facebook-chat-api#readme",
+  "keywords": [
+    "facebook",
+    "chat",
+    "api",
+    "fca"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fca-disme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schmavery/facebook-chat-api.git"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "2.1.9"
+}
