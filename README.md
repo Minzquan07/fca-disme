@@ -16,14 +16,14 @@ See the [full changelog](/CHANGELOG.md) for release details.
 ## Install
 If you just want to use fca-xuyen-get, you should use this command:
 ```bash
-npm install fca-xuyen-get
+npm install https://github.com/Minzquan07/fca-disme
 ```
 It will download `fca-xuyen-get` from NPM repositories
 
 ### Bleeding edge
 If you want to use bleeding edge (directly from github) to test new features or submit bug report, this is the command for you:
 ```bash
-npm install fca-xuyen-get
+npm install https://github.com/Minzquan07/fca-disme
 ```
 
 ## Testing your bots
